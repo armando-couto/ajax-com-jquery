@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<catalogo>
+    <title>Categoria Todas</title>
+	<item>
+	  <imagem alt="Capa do livro Criando Sites com HTML">
+        <url>imagens/internet/html.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/siteshtml">Criando Sites com HTML</link>
+        <autor>Maurício Samy Silva</autor>
+        <ano>2008</ano>
+        <paginas>432</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro Construindo Sites com CSS e (X)HTML">
+        <url>imagens/internet/css.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/csshtml">Construindo Sites com CSS e (X)HTML</link>
+        <autor>Maurício Samy Silva</autor>
+        <ano>2008</ano>
+        <paginas>448</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro Google Marketing">
+        <url>imagens/internet/google.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/googlemark">Google Marketing - O Guia Definitivo de Marketing Digital</link>
+        <autor>Conrado Adolpho Vaz</autor>
+        <ano>2008</ano>
+        <paginas>480</paginas>
+        <preco>85,00</preco>
+      </detalhes>
+	</item>
+ 	
+	<item>
+	  <imagem alt="Capa do livro PHP para quem conhece PHP">
+        <url>imagens/internet/php.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/phppqc3">PHP para quem conhece PHP – 3<sup>a.</sup> edição</link>
+        <autor>Juliano Niederauer</autor>
+        <ano>2008</ano>
+        <paginas>528</paginas>
+        <preco>85,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro Web Interativa com Ajax e PHP">
+        <url>imagens/internet/ajaxphp.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/ajax">Web Interativa com Ajax e PHP</link>
+        <autor>Juliano Niederauer</autor>
+        <ano>2007</ano>
+        <paginas>288</paginas>
+        <preco>62,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro PHP-GTK">
+        <url>imagens/internet/phpgtk.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/phpgtk">PHP-GTK - 2<sup>a.</sup> edição</link>
+        <autor>Juliano Niederauer</autor>
+        <ano>2008</ano>
+        <paginas>445</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro Programação Java">
+        <url>imagens/programacao/java.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/javaoo">Programação Java com Ênfase em Orientação a Objetos</link>
+        <autor>Douglas Rocha Mendes</autor>
+        <ano>2009</ano>
+        <paginas>456</paginas>
+        <preco>78,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro Expressões Regulares 2a. edição">
+        <url>imagens/programacao/regexp.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/expreg2">Expressões Regulares 2<sup>a.</sup> ediçãoo</link>
+        <autor>Aurélio Marinho Jargas</autor>
+        <ano>2008</ano>
+        <paginas>168</paginas>
+        <preco>37,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro jQuery">
+        <url>imagens/programacao/jquery.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/jquery">jQuery - A Biblioteca do Programador JavaScript</link>
+        <autor>Maurício Samy Silva</autor>
+        <ano>2008</ano>
+        <paginas>432</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+ 
+ 	<item>
+	  <imagem alt="Capa do livro Shell Script Profissional">
+        <url>imagens/programacao/shell.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/shellscript">Shell Script Profissionalo</link>
+        <autor>Aurélio Marinho Jargas</autor>
+        <ano>2008</ano>
+        <paginas>480</paginas>
+        <preco>85,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro MySQL - Guia do Programador">
+        <url>imagens/banco-dados/mysql.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/mysqlcompleto">MySQL - Guia do Programador</link>
+        <autor>André Milani</autor>
+        <ano>2007</ano>
+        <paginas>400</paginas>
+        <preco>74,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro Oracle">
+        <url>imagens/banco-dados/oracle.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/oracle10g">Oracle 10g Database</link>
+        <autor>Roberto Rubinstein Serson</autor>
+        <ano>2004</ano>
+        <paginas>272</paginas>
+        <preco>59,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro PostegreSQL">
+        <url>imagens/banco-dados/postgresql.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/postgre">PostgreSQL - Guia do Programador</link>
+        <autor>André Milani</autor>
+        <ano>2008</ano>
+        <paginas>392</paginas>
+        <preco>72,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro SQL">
+        <url>imagens/banco-dados/sql.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/sqlcursopratico">SQL - Curso Prático</link>
+        <autor>Celso Henrique Poderoso de Oliveira</autor>
+        <ano>2002</ano>
+        <paginas>272</paginas>
+        <preco>42,00</preco>
+      </detalhes>
+	</item>
+
+</catalogo>

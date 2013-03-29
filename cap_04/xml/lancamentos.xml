@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<catalogo>
+    <title>Categoria Lançamentos</title>
+
+	<item>
+	  <imagem alt="Capa do livro jQuery">
+        <url>imagens/lancamentos/jquerymain.jpg</url>
+      </imagem>
+      <descricao>
+      <![CDATA[ 
+      <p><strong>jQuery - A Biblioteca do Programador JavaScript</strong> - jQuery é uma poderosa biblioteca JavaScript criada para simplificar a criação de efeitos visuais e de interatividade em websites. Desenvolvedores especialistas em JavaScript, ao conhecerem as maravilhas de que a biblioteca é capaz...<a href="http://www.novatec.com.br/livros/jquery">mais</a> <img src="imagens/lancamentos/pdf_mini.gif" alt=" " /> <a href="http://www.novatec.com.br/livros/jquery/capitulo9788575221785.pdf"> Capítulo on-line</a></p>
+      ]]>
+      </descricao>  
+     </item>
+  
+	<item>
+	  <imagem alt="Capa do livro Gimp">
+        <url>imagens/lancamentos/gimpmain.gif"</url>
+      </imagem>
+      <descricao>
+      <![CDATA[ 
+      <p><strong>GIMP - Guia do Usuário 2<sup>a.</sup> edição</strong> - Tratamento de imagens é uma técnica cada vez mais utilizada para realçar as principais características de uma imagem. Na criação de banners, folders, sites de Internet, e diversos outros meios, a qualidade gráfica á muito importante para atrair a atenção do público alvo, motivo este que leva profissionais de diversas...<a href="http://www.novatec.com.br/livros/gimp">mais</a> <img src="imagens/lancamentos/pdf_mini.gif" alt=" " /> <a href="http://www.novatec.com.br/livros/gimp/capitulo9788575221716.pdf"> Capítulo on-line</a></p>
+      ]]>
+      </descricao>  
+     </item>
+  
+	<item>
+	  <imagem alt="Capa do livro Java OO">
+        <url>imagens/lancamentos/javaoo.jpg</url>
+      </imagem>
+      <descricao>
+      <![CDATA[ 
+      <p><strong>Programação Java com ênfase em Orientação a Objetos</strong> - Apresenta os principais conceitos do paradigma da orientação a objetos de forma didática, clara e objetiva, com base na experiência do autor com projetos reais. As explicações combinam teoria, exemplos e ilustrações que facilitam a compreensção dos assuntos e fornecem um caminho seguro para que o leitor incorpore o conceito de orientação a objetos em seu dia-a-dia...<a href="http://www.novatec.com.br/livros/javaoo">mais</a></p>
+      ]]>
+      </descricao>  
+     </item>
+
+	<item>
+	  <imagem alt="Capa do livro Guia Linux">
+        <url>imagens/lancamentos/linuxguia.gif</url>
+      </imagem>
+      <descricao>
+      <![CDATA[ 
+      <p><strong>Linux &ndash; Guia do Administrador do Sistema - 2<sup>a.</sup> Edição</strong> - Este livro é uma referência completa do Linux, abrangendo desde as atividades básicas de administração até a criação e manutenção de redes Linux. Destina-se tanto a usuários iniciantes na administração de sistemas Linux, como aos mais experientes que desejam projetar e administrar suas próprias redes Linux...<a href="http://www.novatec.com.br/livros/linuxguiaadm2">mais</a> <img src="imagens/lancamentos/pdf_mini.gif" alt=" " /> <a href="http://www.novatec.com.br/livros/linuxguiaadm2/capitulo9788575221778.pdf"> Cap&iacute;tulo on-line</a></p>
+      ]]>
+      </descricao>  
+     </item>
+  
+	<item>
+	  <imagem alt="Capa do livro iPhone">
+        <url>imagens/lancamentos/iphone.jpg</url>
+      </imagem>
+      <descricao>
+      <![CDATA[ 
+      <p><strong>Domine seu iPhone</strong> - O iPhone está sendo considerado a maior invenção tecnológica dos &uacute;ltimos tempos. Desde seu an&uacute;ncio, não pára de encantar as pessoas. Os usuários deparam-se com um verdadeiro arsenal de recursos e programas que o tornam muito mais que um simples telefone, como também uma ferramenta indispensável para as atividades do dia a dia...<a href="http://www.novatec.com.br/livros/iphone">mais</a></p>
+      ]]>
+      </descricao>  
+     </item>
+  
+	<item>
+	  <imagem alt="Capa do livro Avaliando empresas, investindo em ações">
+        <url>imagens/lancamentos/avaliando.jpg</url>
+      </imagem>
+      <descricao>
+      <![CDATA[ 
+      <p><strong>Avaliando Empresas, Investindo em Ações</strong> - Avaliando Empresas, Investindo em Ações é uma obra destinada a investidores que desejam conhecer, em detalhes, os métodos de análise que integram a linha de trabalho da escola fundamentalista, trazendo ao leitor, em linguagem clara e acessível, o conhecimento profundo dos elementos necessários...<a href="http://www.novatec.com.br/livros/avaliando_emp">mais</a> <img src="imagens/lancamentos/pdf_mini.gif" alt=" " /> <a href="http://www.novatec.com.br/livros/avaliando_emp/capitulo9788575221792.pdf"> Cap&iacute;tulo on-line</a></p>
+      ]]>
+      </descricao>  
+     </item>
+</catalogo>

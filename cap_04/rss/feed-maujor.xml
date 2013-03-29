@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Site do Maujor</title> 
+  <link>http://www.maujor.com/</link> 
+  <description>Novidades no Site do Maujor</description> 
+  <language>pt-br</language> 
+  <pubDate>Sun, 24 Oct 2004 10:00:00 GMT</pubDate>
+  <lastBuildDate>Tue, 02 Nov 2004 11:00:00 GMT</lastBuildDate>
+  <webMaster>&#109;&#097;&#117;&#106;&#111;&#114;&#099;&#115;&#064;&#109;&#097;&#117;&#106;&#111;&#114;&#046;&#099;&#111;&#109;(Maujor)</webMaster>
+<image>
+<title>CSS para Web Design</title>
+<url>http://www.maujor.com/imagensrss/logo.jpg</url>
+<link>http://www.maujor.com/</link>
+<description>CSS</description>
+</image>
+<atom:link href="http://www.maujor.com/rss.xml" rel="self" type="application/rss+xml" />
+<item>	
+	<title>Lançamento do livro jQuery do Maujor</title> 
+  <description>
+<![CDATA[
+<p>E com prazer que anuncio o lançamento do livro &#8220;<strong>jQuery - a biblioteca do programador JavaScript</strong>&#8220;.<br />
+Três eventos marcarão o lançamento e eu estarei presente em todos eles, full-time, para conhecê-lo e ter o prazer de autografar seu exemplar.</p>
+<dl>
+<dt>1<sup>o.</sup> Encontro de TI em São Paulo e Rio de Janeiro</dt>
+<dd>Dia: 27/11/2008-SP</dd>
+<dd>Dia: 29/11/2008-RIO</dd>
+<dd><a href="http://www.encontrodeti.com.br/site/?page_id=4">Ver detalhes</a></dd>
+<dt>Livraria Siciliano - RIO</dt>
+<dd>Dia: 11/12/2008 - 5a. feira - 19:00h</dd>
+<dd>Botafogo Praia Shopping</dd>
+<dd>Praia de Botafogo 400 - ljs 408/409</dd>
+</dl>
+]]>
+  </description>
+<link>http://www.maujor.com/blog/2008/11/20/lancamento-do-livro-jquery-do-maujor/</link> 
+<guid>http://www.maujor.com/blog/2008/11/20/lancamento-do-livro-jquery-do-maujor/</guid> 
+</item>
+<item>	
+	<title>Ampersands, PHP Sessions e HTML válido</title> 
+  <description>
+<![CDATA[
+<p>Em HTML (e XHTML, e nas aplicações SGML e XML) determinados caracteres têm um significado especial, como por exemplo, o sinal &quot;menor que&quot;  &lt;, que indica a abertura de uma tag. Se você pretende que caracteres como este sejam renderizados ou apresentados de uma forma qualquer, não pode simplesmente digitá-los no seu documento - senão, como um agente de usuário saberia a diferença entre <code>b&lt;a</code> (significando <em>b é menor do que a</em>) e <code>b&lt;a</code> (significando <em>b seguido da tag de abertura do elemento âncora</em>)?</p>
+]]>
+  </description>
+<link>http://www.maujor.com/w3ctuto/ampersands-php-sessions-html-valido.html</link> 
+<guid>http://www.maujor.com/w3ctuto/ampersands-php-sessions-html-valido.html</guid> 
+</item>
+<item>	
+	<title>Alinhando imagens com a propriedade vertical-align</title> 
+  <description>
+<![CDATA[
+<p>Recentemente alguém me fez a seguinte pergunta:<br />
+Como alinhar uma pequena imagem inserida no texto de um parágrafo?<br />
+Resposta:<br />
+Considere o seguinte exemplo:  um parágrafo contém uma linha de texto e uma pequena imagem representada pelo retângulo azul na figura a seguir...</p>
+]]>
+  </description>
+<link>http://www.maujor.com/tutorial/alinhar-imagens-com-propriedade-vertical-align.php</link> 
+<guid>http://www.maujor.com/tutorial/alinhar-imagens-com-propriedade-vertical-align.php</guid> 
+</item>
+<item>	
+	<title>Hacks CSS</title> 
+  <description>
+<![CDATA[
+<p>Resolver problemas criados por inconsistências de renderização em diferentes navegadores, muitas vezes, consome um grande tempo do desenvolvedor.   Em algumas ocasiões não é possível alcançar consistência para um determinado layout sem uso de regras excepcionais para servir determinadas engines de renderização.</p>
+<hr /> 
+<p>Informo que meu livro "Criando sites com HTML" já se encontra à venda. Maiores informações no <a href="http://www.livrohtml.com.br">site do livro</a></p> 
+]]>
+  </description>
+<link>http://www.maujor.com/tutorial/hacks-css.php</link> 
+<guid>http://www.maujor.com/tutorial/hacks-css.php</guid> 
+</item>
+<item>	
+	<title>WCAG Samurai</title> 
+  <description>
+<![CDATA[
+<p>O WCAG Samurai é um grupo de desenvolvedores liderados por <a href="http://joeclark.org/" rel="nofollow">Joe Clark</a> que propõe uma lista de correções e extensões para as Recomendações para Acessibilidade do Conteúdo da Web 1.0</p>
+]]>
+  </description>
+<link>http://www.maujor.com/wcagsamurai/wcagsamurai-pt-br.html</link> 
+<guid>http://www.maujor.com/wcagsamurai/wcagsamurai-pt-br.html</guid> 
+</item>
+<item>	
+	<title>Livro HTML do Maujor</title> 
+  <description>
+<![CDATA[
+<p>A Editora <a href="http://www.novatec.com.br">Novatec</a> lançará na segunda quinzena de julho o livro de minha autoria "Criando sites com HTML".<br /> Estou convidando você para saber mais sobre êle visitando o <a href="http://www.livrohtml.com.br">Site do livro</a>.</p>
+]]>
+  </description>
+<link>http://www.livrohtml.com.br</link> 
+<guid>http://www.livrohtml.com.br</guid> 
+</item>
+<item>	
+	<title>Leitores de tela e display:none</title> 
+  <description>
+<![CDATA[
+<p><a href="http://jimthatcher.com/" rel="nofollow">Jim Thatcher</a> descobriu um comportamento interessante com respeito a maneira como um leitor de tela anuncia o conteúdo de um link quando definimos para ele <code>display: none</code>. Normalmente os leitores de tela não anunciam conteúdos escondidos com a declaração <code>display: none</code> com exceção do elemento <code>label</code> usado para associar um rótulo a um controle de formulário.</p>
+]]>
+  </description>
+<link>http://www.maujor.com/tutorial/leitores-de-tela-display-none.php</link> 
+<guid>http://www.maujor.com/tutorial/leitores-de-tela-display-none.php</guid> 
+</item>
+<item>	
+	<title>Posicionar o rodapé embaixo da janela</title> 
+  <description>
+<![CDATA[
+<p>Quando a página não preenche toda a altura da janela do navegador, pelo fato de que a quantidade de conteúdos não é extensa e consequentemente não havendo barra de rolagem vertical, a aplicação das técnicas de posicionamento do rodapé faz com que apareça um espaço vago entre o limite inferior do rodapé e o limite inferior da janela do navegador.</p>
+]]>
+  </description>
+<link>http://www.maujor.com/tutorial/rodape-embaixo-da-janela.php</link> 
+<guid>http://www.maujor.com/tutorial/rodape-embaixo-da-janela.php</guid> 
+</item>
+<item>	
+	<title>Layout CSS passo a passo</title> 
+  <description>
+<![CDATA[
+<p>Você sabe construir um layout CSS completo? Existe um método que possa ser utilizado para construção de qualquer layout CSS?<br />
+Este artigo explica como construir um layout CSS a partir do zero. O método de construção descrito se baseia no posicionamento de containers coloridos, foi testado em variedade considerável de navegadores e pode ser adaptado para construir layouts CSS em geral.</p>
+]]>
+  </description>
+<link>http://www.maujor.com/tutorial/layout-css-passo-a-passo.php</link> 
+<guid>http://www.maujor.com/tutorial/layout-css-passo-a-passo.php</guid> 
+</item>
+</channel>
+    </rss>

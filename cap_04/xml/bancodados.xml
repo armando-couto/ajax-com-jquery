@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<catalogo>
+    <title>Categoria Banco de Dados</title>
+
+	<item>
+	  <imagem alt="Capa do livro MySQL - Guia do Programador">
+        <url>imagens/banco-dados/mysql.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/mysqlcompleto">MySQL - Guia do Programador</link>
+        <autor>André Milani</autor>
+        <ano>2007</ano>
+        <paginas>400</paginas>
+        <preco>74,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro Oracle">
+        <url>imagens/banco-dados/oracle.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/oracle10g">Oracle 10g Database</link>
+        <autor>Roberto Rubinstein Serson</autor>
+        <ano>2004</ano>
+        <paginas>272</paginas>
+        <preco>59,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro PostegreSQL">
+        <url>imagens/banco-dados/postgresql.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/postgre">PostgreSQL - Guia do Programador</link>
+        <autor>André Milani</autor>
+        <ano>2008</ano>
+        <paginas>392</paginas>
+        <preco>72,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro SQL">
+        <url>imagens/banco-dados/sql.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/sqlcursopratico">SQL - Curso Prático</link>
+        <autor>Celso Henrique Poderoso de Oliveira</autor>
+        <ano>2002</ano>
+        <paginas>272</paginas>
+        <preco>42,00</preco>
+      </detalhes>
+	</item>
+</catalogo>

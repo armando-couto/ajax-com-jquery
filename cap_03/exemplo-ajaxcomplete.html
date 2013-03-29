@@ -1,0 +1,14 @@
+﻿<h2>Este é o conteúdo requisitado para demonstrar o método <code>ajaxComplete( )</code></h2>
+<p>O evento associado ocorre quando termina uma requisiçao AJAX.</p>
+<p>Este método (em terminologia jQuery vamos chamar de métodos)  admite um argumento facultativo que é uma função callback a ser executada por ocasião da ocorrência do evento.</p>
+
+<p>Exemplo:</p>
+<ol>
+<code>
+<li>&nbsp;$('#mensagem').ajaxComplete(function() {</li>
+<li>&nbsp;&nbsp;&nbsp;$(this)</li>
+<li>&nbsp;&nbsp;&nbsp;.append('&lt;p class="destaque">Requisição AJAX terminada. Resultado: ' + xhr.status + ' - ' + xhr.statusText +  '&lt;/p>');</li>
+<li>&nbsp;});</li></code>
+</ol>
+
+

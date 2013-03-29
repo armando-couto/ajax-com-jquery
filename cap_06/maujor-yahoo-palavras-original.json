@@ -1,0 +1,32 @@
+﻿{"ResultSet":{
+  "type":"web",
+  "totalResultsAvailable":838000000,
+  "totalResultsReturned":2,
+  "firstResultPosition":1,
+  "moreSearch":"\/WebSearchService\/V1\/webSearch?query=css&amp;appid=YahooDemo&amp;region=us",
+    "Result":[
+	{
+     "Title":"Cascading Style Sheets - Wikipedia, the free encyclopedia",
+     "Summary":"CSS is designed primarily to enable the separation of document content (written ... The CSS   specifications are maintained by the World Wide Web Consortium (W3C) ...",
+     "Url":"http:\/\/en.wikipedia.org\/wiki\/Cascading_Style_Sheets",
+     "ClickUrl":"http:\/\/en.wikipedia.org\/wiki\/Cascading_Style_Sheets",
+     "DisplayUrl":"en.wikipedia.org\/wiki\/Cascading_Style_Sheets",
+     "ModificationDate":1243321200,
+     "MimeType":"text\/html",
+    "Cache":{          "Url":"http:\/\/uk.wrs.yahoo.com\/_ylt=A0S0mjqxLiRK5.cA3DfdmMwF;_ylu=X3oDMTBwZTdwbWtkBGNvbG8DZQRwb3MDMQRzZWMDc3IEdnRpZAM-\/SIG=16bp9gd3i\/EXP=1243971633\/**http%3A\/\/74.6.239.67\/search\/cache%3Fei=UTF-8%26appid=YahooDemo%26output=json%26query=css%26results=2%26u=en.wikipedia.org\/wiki\/Cascading_Style_Sheets%26d=LIAPw0xIS3Pe%26icp=1%26.intl=us",
+"Size":"111205"
+     }
+    },
+
+   {
+    "Title":"CSS Tutorial",
+    "Summary":"Free HTML XHTML CSS JavaScript DHTML XML DOM XSL XSLT RSS AJAX ASP ADO PHP SQL tutorials, references,
+examples for web building.",
+    "Url":"http:\/\/www.w3schools.com\/css\/",
+    "ClickUrl":"http:\/\/www.w3schools.com\/css\/",
+    "DisplayUrl":"www.w3schools.com\/css\/",
+    "ModificationDate":1243580400,
+    "MimeType":"text\/html",
+"Cache":{
+"Url":"http:\/\/uk.wrs.yahoo.com\/_ylt=A0S0mjqxLiRK5.cA3zfdmMwF;_ylu=X3oDMTBwbGppbHRwBGNvbG8DZQRwb3MDMgRzZWMDc3IEdnRpZAM-\/SIG=15leih6cp\/EXP=1243971633\/**http%3A\/\/74.6.239.67\/search\/cache%3Fei=UTF-8%26appid=YahooDemo%26output=json%26query=css%26results=2%26u=www.w3schools.com\/css\/%26d=JwynXUxIS4zr%26icp=1%26.intl=us",
+"Size":"25061"}}]}}

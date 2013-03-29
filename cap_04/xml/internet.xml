@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<catalogo>
+    <title>Categoria Internet</title>
+	<item>
+	  <imagem alt="Capa do livro Criando Sites com HTML">
+        <url>imagens/internet/html.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/siteshtml">Criando Sites com HTML</link>
+        <autor>Maurício Samy Silva</autor>
+        <ano>2008</ano>
+        <paginas>432</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro Construindo Sites com CSS e (X)HTML">
+        <url>imagens/internet/css.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/csshtml">Construindo Sites com CSS e (X)HTML</link>
+        <autor>Maurício Samy Silva</autor>
+        <ano>2008</ano>
+        <paginas>448</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro Google Marketing">
+        <url>imagens/internet/google.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/googlemark">Google Marketing - O Guia Definitivo de Marketing Digital</link>
+        <autor>Conrado Adolpho Vaz</autor>
+        <ano>2008</ano>
+        <paginas>480</paginas>
+        <preco>85,00</preco>
+      </detalhes>
+	</item>
+ 	
+	<item>
+	  <imagem alt="Capa do livro PHP para quem conhece PHP">
+        <url>imagens/internet/php.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/phppqc3">PHP para quem conhece PHP – 3<sup>a.</sup> edição</link>
+        <autor>Juliano Niederauer</autor>
+        <ano>2008</ano>
+        <paginas>528</paginas>
+        <preco>85,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro Web Interativa com Ajax e PHP">
+        <url>imagens/internet/ajaxphp.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/ajax">Web Interativa com Ajax e PHP</link>
+        <autor>Juliano Niederauer</autor>
+        <ano>2007</ano>
+        <paginas>288</paginas>
+        <preco>62,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro PHP-GTK">
+        <url>imagens/internet/phpgtk.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/phpgtk">PHP-GTK - 2<sup>a.</sup> edição</link>
+        <autor>Juliano Niederauer</autor>
+        <ano>2008</ano>
+        <paginas>445</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+</catalogo>

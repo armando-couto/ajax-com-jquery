@@ -1,0 +1,108 @@
+jsonFlickrFeed({
+		"title": "Recent Uploads tagged maujor",
+		"link": "http://www.flickr.com/photos/tags/maujor/",
+		"description": "",
+		"modified": "2007-12-19T20:41:14Z",
+		"generator": "http://www.flickr.com/",
+		"items": [
+	   {
+			"title": "Livro do Memória",
+			"link": "http://www.flickr.com/photos/sergiomaia/2123552202/",
+			"media": {"m":"http://farm3.static.flickr.com/2004/2123552202_ab2bd683ff_m.jpg"},
+			"date_taken": "2005-01-03T05:46:06-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/sergiomaia/\">Sérgio Maia<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/sergiomaia/2123552202/\" title=\"Livro do Memória\"><img src=\"http://farm3.static.flickr.com/2004/2123552202_ab2bd683ff_m.jpg\" width=\"240\" height=\"180\" alt=\"Livro do Memória\" /><\/a><\/p> <p>O livro do Memória, mto bom.<\/p>",
+			"published": "2007-12-19T20:41:14Z",
+			"author": "nobody@flickr.com (Sérgio Maia)",
+			"author_id": "13824231@N04",
+			"tags": "design df férias php css maia ajax formosa oo xhtml doce felipe sérgio riacho microformats memória maujor tatieli"
+	   },
+	   {
+			"title": "Livro do Maujor",
+			"link": "http://www.flickr.com/photos/sergiomaia/2122772947/",
+			"media": {"m":"http://farm3.static.flickr.com/2145/2122772947_f8f66d9de5_m.jpg"},
+			"date_taken": "2005-01-03T05:38:55-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/sergiomaia/\">Sérgio Maia<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/sergiomaia/2122772947/\" title=\"Livro do Maujor\"><img src=\"http://farm3.static.flickr.com/2145/2122772947_f8f66d9de5_m.jpg\" width=\"240\" height=\"180\" alt=\"Livro do Maujor\" /><\/a><\/p> <p>O livro do Maujor ficou ótimo.<\/p>",
+			"published": "2007-12-19T20:37:33Z",
+			"author": "nobody@flickr.com (Sérgio Maia)",
+			"author_id": "13824231@N04",
+			"tags": "css livro xhtml sites maujor"
+	   },
+	   {
+			"title": "Chintia com Maujor",
+			"link": "http://www.flickr.com/photos/horaciosoares/2107141030/",
+			"media": {"m":"http://farm3.static.flickr.com/2323/2107141030_839433ab43_m.jpg"},
+			"date_taken": "2007-12-12T17:49:30-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/horaciosoares/\">Horacio soares<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/horaciosoares/2107141030/\" title=\"Chintia com Maujor\"><img src=\"http://farm3.static.flickr.com/2323/2107141030_839433ab43_m.jpg\" width=\"240\" height=\"180\" alt=\"Chintia com Maujor\" /><\/a><\/p> <p>Aluna de graduação da Uniriotec com o Maujor<\/p>",
+			"published": "2007-12-13T01:46:07Z",
+			"author": "nobody@flickr.com (Horacio soares)",
+			"author_id": "15473728@N07",
+			"tags": "css webstandards maq unirio acessibilidade maujor uniriotec"
+	   },
+	   {
+			"title": "Eu e o incansável mestre...",
+			"link": "http://www.flickr.com/photos/horaciosoares/2106355303/",
+			"media": {"m":"http://farm3.static.flickr.com/2355/2106355303_d228fece8b_m.jpg"},
+			"date_taken": "2007-12-12T16:58:11-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/horaciosoares/\">Horacio soares<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/horaciosoares/2106355303/\" title=\"Eu e o incansável mestre...\"><img src=\"http://farm3.static.flickr.com/2355/2106355303_d228fece8b_m.jpg\" width=\"240\" height=\"180\" alt=\"Eu e o incansável mestre...\" /><\/a><\/p> ",
+			"published": "2007-12-13T01:44:13Z",
+			"author": "nobody@flickr.com (Horacio soares)",
+			"author_id": "15473728@N07",
+			"tags": "css xhtml webstandards acessibilidade maujor"
+	   },
+	   {
+			"title": "Maujor autografando seu livro...",
+			"link": "http://www.flickr.com/photos/horaciosoares/2107125790/",
+			"media": {"m":"http://farm3.static.flickr.com/2049/2107125790_5c19385a7f_m.jpg"},
+			"date_taken": "2007-12-12T16:53:42-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/horaciosoares/\">Horacio soares<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/horaciosoares/2107125790/\" title=\"Maujor autografando seu livro...\"><img src=\"http://farm3.static.flickr.com/2049/2107125790_5c19385a7f_m.jpg\" width=\"240\" height=\"180\" alt=\"Maujor autografando seu livro...\" /><\/a><\/p> ",
+			"published": "2007-12-13T01:42:12Z",
+			"author": "nobody@flickr.com (Horacio soares)",
+			"author_id": "15473728@N07",
+			"tags": "css webstandards acessibilidade maujor"
+	   },
+	   {
+			"title": "Eu e o MAQ com o livro do Maujor",
+			"link": "http://www.flickr.com/photos/horaciosoares/2107130232/",
+			"media": {"m":"http://farm3.static.flickr.com/2263/2107130232_440bd1131d_m.jpg"},
+			"date_taken": "2007-12-12T16:57:52-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/horaciosoares/\">Horacio soares<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/horaciosoares/2107130232/\" title=\"Eu e o MAQ com o livro do Maujor\"><img src=\"http://farm3.static.flickr.com/2263/2107130232_440bd1131d_m.jpg\" width=\"240\" height=\"180\" alt=\"Eu e o MAQ com o livro do Maujor\" /><\/a><\/p> ",
+			"published": "2007-12-13T01:43:18Z",
+			"author": "nobody@flickr.com (Horacio soares)",
+			"author_id": "15473728@N07",
+			"tags": "css webstandards maq acessibilidade maujor"
+	   },
+	   {
+			"title": "MAQ, Maujor e eu...",
+			"link": "http://www.flickr.com/photos/horaciosoares/2106342605/",
+			"media": {"m":"http://farm3.static.flickr.com/2226/2106342605_348a28cdfe_m.jpg"},
+			"date_taken": "2007-12-12T16:27:52-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/horaciosoares/\">Horacio soares<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/horaciosoares/2106342605/\" title=\"MAQ, Maujor e eu...\"><img src=\"http://farm3.static.flickr.com/2226/2106342605_348a28cdfe_m.jpg\" width=\"240\" height=\"180\" alt=\"MAQ, Maujor e eu...\" /><\/a><\/p> ",
+			"published": "2007-12-13T01:41:11Z",
+			"author": "nobody@flickr.com (Horacio soares)",
+			"author_id": "15473728@N07",
+			"tags": "css webstandards maq acessibilidade maujor"
+	   },
+	   {
+			"title": "MAQ com livro de CSS ao lado do MAUJOR",
+			"link": "http://www.flickr.com/photos/horaciosoares/2107144472/",
+			"media": {"m":"http://farm3.static.flickr.com/2352/2107144472_0f3edeff09_m.jpg"},
+			"date_taken": "2007-12-12T16:27:29-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/horaciosoares/\">Horacio soares<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/horaciosoares/2107144472/\" title=\"MAQ com livro de CSS ao lado do MAUJOR\"><img src=\"http://farm3.static.flickr.com/2352/2107144472_0f3edeff09_m.jpg\" width=\"240\" height=\"180\" alt=\"MAQ com livro de CSS ao lado do MAUJOR\" /><\/a><\/p> ",
+			"published": "2007-12-13T01:47:06Z",
+			"author": "nobody@flickr.com (Horacio soares)",
+			"author_id": "15473728@N07",
+			"tags": "css webstandards maq acessibilidade maujor"
+	   },
+	   {
+			"title": "Carla, Chintia, Maujor e Ricardo",
+			"link": "http://www.flickr.com/photos/horaciosoares/2107137450/",
+			"media": {"m":"http://farm3.static.flickr.com/2312/2107137450_fb7a9ca9e2_m.jpg"},
+			"date_taken": "2007-12-12T17:43:10-08:00",
+			"description": "<p><a href=\"http://www.flickr.com/people/horaciosoares/\">Horacio soares<\/a> posted a photo:<\/p> <p><a href=\"http://www.flickr.com/photos/horaciosoares/2107137450/\" title=\"Carla, Chintia, Maujor e Ricardo\"><img src=\"http://farm3.static.flickr.com/2312/2107137450_fb7a9ca9e2_m.jpg\" width=\"240\" height=\"180\" alt=\"Carla, Chintia, Maujor e Ricardo\" /><\/a><\/p> <p>Alunos do mestrado da Uniriotec com o Maujor<\/p>",
+			"published": "2007-12-13T01:45:09Z",
+			"author": "nobody@flickr.com (Horacio soares)",
+			"author_id": "15473728@N07",
+			"tags": "css webstandards maq unirio acessibilidade maujor uniriotec"
+	   }
+        ]
+})

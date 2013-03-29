@@ -1,0 +1,90 @@
+[{
+"truncated":false,
+"user":{
+"favourites_count":0,
+"description":"Um dinossauro apaixonado por Padr\u00f5es Web.",
+"utc_offset":-10800,
+"profile_link_color":"1F98C7",
+"statuses_count":130,
+"following":false,
+"profile_background_tile":false,
+"profile_sidebar_fill_color":"DAECF4",
+"followers_count":692,
+"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif",
+"url":"http:\/\/www.maujor.com\/blog",
+"name":"maujor",
+"time_zone":"Brasilia",
+"friends_count":16,
+"profile_sidebar_border_color":"C6E2EE",
+"protected":false,
+"created_at":"Tue Dec 02 00:17:07 +0000 2008",
+"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg","notifications":false,
+"profile_background_color":"C6E2EE",
+"location":"Rio de Janeiro, Copacabana - B",
+"screen_name":"maujor",
+"id":17793871,"profile_text_color":"663B12"},
+"in_reply_to_status_id":null,
+"text":"Desenvolvendo os exemplos do Cap\u00edtulo 6 do livro. Quer ver um dos exemplos funcionando? Visite: http:\/\/tinyurl.com\/c28xf2",
+"in_reply_to_user_id":null,
+"favorited":false,
+"created_at":"Thu Apr 30 12:23:26 +0000 2009",
+"in_reply_to_screen_name":null,
+"id":1658318353,
+"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>"},
+
+{"truncated":false,
+"user":{
+"profile_background_tile":false,
+"followers_count":689,
+"description":"Um dinossauro apaixonado por Padr\u00f5es Web.",
+"utc_offset":-10800,
+"friends_count":16,
+"profile_background_color":"C6E2EE",
+"following":false,
+"favourites_count":0,
+"profile_text_color":"663B12",
+"url":"http:\/\/www.maujor.com\/blog",
+"name":"maujor",
+"time_zone":"Brasilia",
+"protected":false,
+"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif",
+"profile_link_color":"1F98C7",
+"notifications":false,
+"created_at":"Tue Dec 02 00:17:07 +0000 2008",
+"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg","profile_sidebar_fill_color":"DAECF4",
+"location":"Rio de Janeiro, Copacabana - B",
+"screen_name":"maujor",
+"id":17793871,
+"statuses_count":129,
+"profile_sidebar_border_color":"C6E2EE"},
+"in_reply_to_status_id":null,
+"text":"@PotHix Fotos em: http:\/\/www.flickr.com\/photos\/maujor\/",
+"in_reply_to_user_id":14699447,
+"favorited":false,
+"created_at":"Thu Apr 30 01:44:07 +0000 2009",
+"in_reply_to_screen_name":"PotHix",
+"id":1654998767,
+"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>"
+},
+
+
+{
+"in_reply_to_screen_name":"bornslip","user":{"profile_sidebar_border_color":"C6E2EE","description":"Um dinossauro apaixonado por Padr\u00f5es Web.","profile_background_tile":false,"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","utc_offset":-10800,"screen_name":"maujor","following":false,"profile_background_color":"C6E2EE","url":"http:\/\/www.maujor.com\/blog","name":"maujor","profile_text_color":"663B12","protected":false,"followers_count":689,"profile_link_color":"1F98C7","time_zone":"Brasilia","friends_count":16,"notifications":false,"statuses_count":128,"profile_sidebar_fill_color":"DAECF4","location":"Rio de Janeiro, Copacabana - B","id":17793871,"favourites_count":0,"created_at":"Tue Dec 02 00:17:07 +0000 2008","profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg"},"text":"@bornslip O livro AJAX com jQuery ser\u00e1 lan\u00e7ado no final de julho e n\u00e3o haver\u00e1 venda antecipada.","truncated":false,"in_reply_to_status_id":null,"in_reply_to_user_id":18429601,"favorited":false,"id":1654959797,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>","created_at":"Thu Apr 30 01:39:46 +0000 2009"},{"in_reply_to_screen_name":"felipeleobraga","user":{"notifications":false,"profile_background_color":"C6E2EE","description":"Um dinossauro apaixonado por Padr\u00f5es Web.","utc_offset":-10800,"screen_name":"maujor","profile_text_color":"663B12","following":false,"favourites_count":0,"profile_link_color":"1F98C7","url":"http:\/\/www.maujor.com\/blog","name":"maujor","statuses_count":127,"protected":false,"profile_background_tile":false,"profile_sidebar_fill_color":"DAECF4","followers_count":688,"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","time_zone":"Brasilia","friends_count":16,"profile_sidebar_border_color":"C6E2EE","location":"Rio de Janeiro, Copacabana - B","id":17793871,"created_at":"Tue Dec 02 00:17:07 +0000 2008","profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg"},
+
+"text":"@felipeleobraga Bem-vindo!","truncated":false,"in_reply_to_status_id":null,"in_reply_to_user_id":18817419,"favorited":false,"id":1654710441,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>","created_at":"Thu Apr 30 01:10:45 +0000 2009"},{"truncated":false,"user":{"favourites_count":0,"description":"Um dinossauro apaixonado por Padr\u00f5es Web.","utc_offset":-10800,"profile_link_color":"1F98C7","statuses_count":130,"following":null,"profile_background_tile":false,"profile_sidebar_fill_color":"DAECF4","followers_count":693,"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","url":"http:\/\/www.maujor.com\/blog","name":"maujor","time_zone":"Brasilia","friends_count":16,"profile_sidebar_border_color":"C6E2EE","protected":false,"created_at":"Tue Dec 02 00:17:07 +0000 2008","profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg","notifications":null,"profile_background_color":"C6E2EE","location":"Rio de Janeiro, Copacabana - B","screen_name":"maujor","id":17793871,"profile_text_color":"663B12"},"in_reply_to_status_id":null,"text":"@cleomorgause Sim! estou considerando seriamente ir a  Bel\u00f4 no EDTED para conhecer meus leitores das Minas Gerais.","in_reply_to_user_id":14605023,"favorited":false,"created_at":"Tue Apr 28 15:53:21 +0000 2009","in_reply_to_screen_name":"cleomorgause","id":1639945577,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>"},
+
+
+{"in_reply_to_user_id":null,"user":{"profile_background_tile":false,"friends_count":18,"profile_sidebar_border_color":"C6E2EE","description":"Um dinossauro apaixonado por Padr\u00f5es Web.","profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","utc_offset":-10800,"time_zone":"Brasilia","following":false,"profile_background_color":"C6E2EE","url":"http:\/\/www.maujor.com\/blog","name":"maujor","notifications":false,"profile_text_color":"663B12","protected":false,"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg","created_at":"Tue Dec 02 00:17:07 +0000 2008","profile_link_color":"1F98C7","favourites_count":0,"screen_name":"maujor","profile_sidebar_fill_color":"DAECF4","followers_count":664,"location":"Rio de Janeiro, Copacabana - B","id":17793871,"statuses_count":125},"text":"RT: @igorescobar: @maujor \u00e9 pop-star uheheuhe. Ops! T\u00f4 mais para old-ancient do que para pop-star. kakaka!","favorited":false,"in_reply_to_screen_name":null,"created_at":"Tue Apr 28 15:08:00 +0000 2009","truncated":false,"id":1639557852,"in_reply_to_status_id":null,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>"},{"truncated":false,"user":{"favourites_count":0,"description":"Um dinossauro apaixonado por Padr\u00f5es Web.","utc_offset":-10800,"profile_link_color":"1F98C7","statuses_count":130,"following":null,"profile_background_tile":false,"profile_sidebar_fill_color":"DAECF4","followers_count":693,"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","url":"http:\/\/www.maujor.com\/blog","name":"maujor","time_zone":"Brasilia","friends_count":16,"profile_sidebar_border_color":"C6E2EE","protected":false,"created_at":"Tue Dec 02 00:17:07 +0000 2008","profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg","notifications":null,"profile_background_color":"C6E2EE","location":"Rio de Janeiro, Copacabana - B","screen_name":"maujor","id":17793871,"profile_text_color":"663B12"},"in_reply_to_status_id":null,"text":"@cleomorgause Vamos lan\u00e7ar o livro em um evento sim! Mas, ainda n\u00e3o sei qual ser\u00e1. A editora ir\u00e1 ver isso oportunamente.","in_reply_to_user_id":14605023,"favorited":false,"created_at":"Tue Apr 28 15:04:16 +0000 2009","in_reply_to_screen_name":"cleomorgause","id":1639526855,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>"
+},
+
+{"truncated":false,
+
+"user":{
+
+"favourites_count":0,"description":"Um dinossauro apaixonado por Padr\u00f5es Web.","utc_offset":-10800,"profile_link_color":"1F98C7","statuses_count":130,"following":null,"profile_background_tile":false,"profile_sidebar_fill_color":"DAECF4","followers_count":693,"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","url":"http:\/\/www.maujor.com\/blog","name":"maujor","time_zone":"Brasilia","friends_count":16,"profile_sidebar_border_color":"C6E2EE","protected":false,"created_at":"Tue Dec 02 00:17:07 +0000 2008","profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg","notifications":null,"profile_background_color":"C6E2EE","location":"Rio de Janeiro, Copacabana - B","screen_name":"maujor","id":17793871,"profile_text_color":"663B12"},"in_reply_to_status_id":null,"text":"@ghoostaf primeiro post sobre o livro est\u00e1 em http:\/\/tinyurl.com\/dlwo8k aguarde que vai sair outro em breve.","in_reply_to_user_id":33661180,"favorited":false,"created_at":"Tue Apr 28 15:02:04 +0000 2009","in_reply_to_screen_name":"ghoostaf","id":1639508264,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>"},
+
+
+{"in_reply_to_screen_name":"pinceladasdaweb","user":{"notifications":false,"profile_background_color":"C6E2EE","description":"Um dinossauro apaixonado por Padr\u00f5es Web.","utc_offset":-10800,"screen_name":"maujor","profile_text_color":"663B12","following":0,"favourites_count":0,"profile_link_color":"1F98C7","url":"http:\/\/www.maujor.com\/blog","name":"maujor","statuses_count":129,"protected":false,"profile_background_tile":false,"profile_sidebar_fill_color":"DAECF4","followers_count":692,"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","time_zone":"Brasilia","friends_count":16,"profile_sidebar_border_color":"C6E2EE","location":"Rio de Janeiro, Copacabana - B","id":17793871,"created_at":"Tue Dec 02 00:17:07 +0000 2008","profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg"
+},
+
+"text":"@pinceladasdaweb @celsodesign Fotos  em http:\/\/tinyurl.com\/cdum4a @cleomorgause Lan\u00e7amento livro -&gt; julho\/2009 @XaniXani valeu o encontro","truncated":false,"in_reply_to_status_id":null,"in_reply_to_user_id":13524602,"favorited":false,"id":1638937244,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>","created_at":"Tue Apr 28 13:49:12 +0000 2009"},{"truncated":false,"user":{"friends_count":18,"profile_background_color":"C6E2EE","description":"Um dinossauro apaixonado por Padr\u00f5es Web.","screen_name":"maujor","utc_offset":-10800,"favourites_count":0,"profile_text_color":"663B12","following":0,"profile_background_image_url":"http:\/\/static.twitter.com\/images\/themes\/theme2\/bg.gif","profile_link_color":"1F98C7","url":"http:\/\/www.maujor.com\/blog","name":"maujor","time_zone":"Brasilia","protected":false,"profile_sidebar_fill_color":"DAECF4","profile_sidebar_border_color":"C6E2EE","notifications":false,"profile_background_tile":false,"followers_count":661,"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/82965021\/maujor320x320_normal.jpg","location":"Rio de Janeiro, Copacabana - B","id":17793871,"statuses_count":121,"created_at":"Tue Dec 02 00:17:07 +0000 2008"},"in_reply_to_status_id":null,"text":"Terminei de escrever o cap\u00edtulo 4 do livro \"Ajax com jQuery\".","in_reply_to_user_id":null,"favorited":false,"in_reply_to_screen_name":null,"id":1638790100,"source":"<a href=\"http:\/\/twitterfox.net\/\">TwitterFox<\/a>","created_at":"Tue Apr 28 13:29:33 +0000 2009"}]

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<catalogo>
+    <title>Categoria Programação</title>
+	<item>
+	  <imagem alt="Capa do livro Programação Java">
+        <url>imagens/programacao/java.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/javaoo">Programação Java com Ênfase em Orientação a Objetos</link>
+        <autor>Douglas Rocha Mendes</autor>
+        <ano>2009</ano>
+        <paginas>456</paginas>
+        <preco>78,00</preco>
+      </detalhes>
+	</item>
+
+	<item>
+	  <imagem alt="Capa do livro Expressões Regulares 2a. edição">
+        <url>imagens/programacao/regexp.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/expreg2">Expressões Regulares 2<sup>a.</sup> ediçãoo</link>
+        <autor>Aurélio Marinho Jargas</autor>
+        <ano>2008</ano>
+        <paginas>168</paginas>
+        <preco>37,00</preco>
+      </detalhes>
+	</item>
+	
+	<item>
+	  <imagem alt="Capa do livro jQuery">
+        <url>imagens/programacao/jquery.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/jquery">jQuery - A Biblioteca do Programador JavaScript</link>
+        <autor>Maurício Samy Silva</autor>
+        <ano>2008</ano>
+        <paginas>432</paginas>
+        <preco>75,00</preco>
+      </detalhes>
+	</item>
+ 
+ 	<item>
+	  <imagem alt="Capa do livro Shell Script Profissional">
+        <url>imagens/programacao/shell.gif</url>
+      </imagem>
+      <detalhes>
+        <link alvo="http://www.novatec.com.br/livros/shellscript">Shell Script Profissionalo</link>
+        <autor>Aurélio Marinho Jargas</autor>
+        <ano>2008</ano>
+        <paginas>480</paginas>
+        <preco>85,00</preco>
+      </detalhes>
+	</item>
+</catalogo>

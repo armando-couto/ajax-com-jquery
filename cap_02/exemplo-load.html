@@ -1,0 +1,318 @@
+﻿<div id="conteudo1">
+<h2>Apresentação<br />
+<small>Maurício "Maujor" Samy Silva</small></h2>
+
+<p>Ajax com jQuery é uma poderosa combinação das funcionalidades do AJAX com a simplicidade que jQuery proporciona ao desenvolvimento com JavaScript. Seja você um especialista ou um iniciante no uso de AJAX certamente ficará maravilhado ao descobrir uma metodologia completamente diferente, inovadora, intuitiva e infinitamente mais simples de desenvolver AJAX.</p>
+
+<p>O primeiro capítulo deste livro apresenta uma visão geral do AJAX segundo a maneira tradicional de desenvolvimento fazendo uma recapitulação dos seus conceitos fundamentais, dissertando sobre os métodos e propriedades do objeto XMLHttpRequest e explicando passo a passo os scripts fundamentais que reunidos formam uma biblioteca mínima para uma requisição AJAX. São estudadoss ainda os diferentes tipos de arquivos possíveis de serem requisitados e cada caso é ilustrado com um exemplo prático em funcionamento no site do livro.</p>
+
+<p>No segundo e terceiro capítulos  são apresentados e explicados detalhadamente os métodos e funcionalidades da biblioteca JQuery para AJAX. Os capítulos subsequentes são predominantemente práticos contendo exemplos cujo funcionamento pode ser conferido no site do livro.</p>		
+</div>
+
+<div id="conteudo2">
+<h2>$.ajax(opções)</h2>
+<p>Esta função carrega uma página remota usando uma requisição HTTP.
+Trata-se de uma implementação AJAX em nível inferior que oferece um vasto conjunto de funcionalidades não disponíveis em funções mais fáceis de entender e usar, chamadas de alto nível, tais como as funções $.get() e $.post().
+Esta função admite um argumento que é um objeto constituído de um conjunto de pares chave/valor (ou nome/valor) a ser usado para iniciar e manipular a requisição. O conjunto chave/valor e seus significados são mostrados a seguir.
+Não se preocupe se os conceitos a seguir soarem estranhos e confusos para você. Faça uma leitura atenta para se familiarizar com os nomes e finalidade de cada chave/valor. Mais adiante você estudará as funções de alto nível, mais fáceis de entender e usar como foi dito anteriormente. E então poderá reler e entender os conceitos a seguir.</p>
+<table border="1" cellspacing="0">
+
+<tr>
+<th>Chave</th><th>Valor e Descrição</th>
+</tr>
+
+<tr><td>async</td><td>O valor default é true. Por definição, requisições AJAX são assíncronas e esta chave configurada para false torna a requisição síncrona. É quase certeza que você não encontrará uma razão para fazer uma requisição AJAX síncrona. 
+</td>
+</tr>
+
+<tr>
+<td>    
+beforeSend</td><td>O valor é uma função para modificar o objeto XMLHttpRequest antes do seu envio. É usada, por exemplo, para enviar cabeçalhos HTTP personalizados. A função admite como argumento único o objeto XMLHttpRequest. 
+</td>
+</tr>
+
+<tr>
+<td>     
+cache</td><td>O valor default é true e evita que a página requisitada vá para o cache do navegador. Para requisições JSONP ou com uso do elemento script esta chave deve ser configurada para false.
+</td>
+</tr>
+
+<tr>
+<td>    
+complete</td><td>O valor é uma função chamada quando a requisição termina. A função admite dois argumentos: o objeto XMLHttpRequest  e uma string definindo o status de como terminou a requisição.
+</td>
+</tr>
+
+<tr>
+<td>       
+contentType</td><td>O valor é uma string descrevendo o tipo de conteúdo que está sendo enviado para o servidor. O valor default é application/x-www-form-urlencoded.
+ </td>
+</tr>
+
+<tr>
+<td>    
+data</td><td>O valor desta chave são os dados a serem enviados ao servidor. Os dados são automaticamente convertidos em uma query string e apensos à URL quando se trata de requisição pelo método GET. Caso não se deseje a transformação automática dos dados em uma query string podemos usar a chave processData conforme mostrada adiante. Se o valor dos dados for um array jQuery serializa os valores do array em uma mesma chave. Por exemplo: {dados:["v1", "v2"]} transforma-se em: '&dados=v1&dados=v2'.
+</td>
+</tr>
+
+<tr>
+<td>    
+dataFilter</td><td>O valor é uma função usada para tratar os dados brutos retornados pelo objeto XMLHttpRequest. A função admite dois argumentos os dados e o tipo de dados retornado pelo servidor.
+</td>
+</tr>
+
+<tr>
+<td>     	 
+dataType</td><td>O valor é o tipo dos dados que é esperado como retorno pelo servidor. Os tipos de dados disponíveis são:
+xml, html, script, json, jsonp,text
+</td>
+</tr>
+
+<tr>
+<td>     	 
+error</td><td>O valor é uma função a ser chamada quando ocorre uma falha na requisição. A função admite três argumentos: o objeto XMLHttpRequest, uma string descrevendo o tipo de erro cujos valores possíveis são: "null", "timedout", error, "notmodified" e "parsererror". O último argumento é um objeto opcional, caso ocorra. Exemplo: function (XMLHttpRequest, textStatus, errorThrown) {...} . Convém notar que o tratamento de erros em requisições AJAX com jQuery somente está disponível nesta função, isto é, funções callback para tratar erros não são possíveis nas implementações de alto nível, tais como, $.get() e $.post().
+global	O valor default é true e habilita o uso de funções globais durante a requisição. Configurada para false esta chave evita, por exemplo, que as globais ajaxStart e ajaxStop tenham efeito.  
+ifModified	Destina-se a completar a requisição somente no caso de a resposta ter sido modificada desde a última requisição. A verificação é feita com a inspeção do cabeçalho HTTP Last-Modified. O valor default é false não fazendo a verificação do cabeçalho.  
+jsonp	Sobrescreve a função callback em uma requisição JSON.
+password	O valor é uma senha para possibilitar acesso a um recurso que exija autenticação. 
+processData	O valor default é true o que faz com que os dados sejam processados e passados como uma query string do tipo application/x-www-form-urlencoded. Havendo necessidade de passar dados não processados configure esta chave para false.
+</td>
+</tr>
+
+<tr>
+<td>     	 
+scriptCharset</td><td>Usado somente para requisições de dados do tipo jsonp ou script com método HTTP GET, nos casos em que haja diferenças entre o conjunto de caracteres remoto e o do conteúdo local.    
+success	O valor é uma função a ser executada quando a requisição se completa com sucesso. A função admite dois argumentos: os dados retornados, formatados de acordo com o parâmetro dataType e uma string descrevendo o status.
+ </td>
+</tr>
+
+<tr>
+<td>     	 
+timeout</td><td>O valor deve ser definido em milisegundos e se destina a estabelecer um tempo mínimo de espera para a requisição a partir do qual ela deverá ser abortada.
+</td>
+</tr>
+
+<tr>
+<td>     	 
+type</td><td>O valor default é GET e define o tipo de requisição. Normalmente as requisições são do tipo GET ou POST, contudo outros tipos como PUT e DELETE são também possíveis, embora tais tipos possam apresentar problemas por não serem suportados por determinados navegadores.
+</td>
+</tr>
+
+<tr>
+<td>     	 
+url</td><td>O valor é a URL para a qual a requisição é feita.
+</td>
+</tr>
+
+<tr>
+<td>     	 
+username</td><td>O valor é uma nome de usuário para possibilitar acesso a um recurso que exija autenticação.
+xhr	Sobrescreve a funcionalidade nativa de criação do objeto AJAX. Usado para personalizar ou incrementar a criação do objeto XMLHttpRequest.
+</td>
+</tr>
+
+<tr>
+<td>     	 
+Notas gerais</td><td>
+Conforme vimos, uma das chaves para requisições AJAX é a dataType ou tipo dos dados que estão transitando em uma requisição. É importante que o servidor retorne o MIME type correto quando devolve uma resposta ao cliente. Desta forma, certifique-se de definir corretamente a dataType em suas requisições, caso contrário não será possível manipular os dados retornados ou até mesmo a requisição ser completamente ignorada, e, pior ainda, você não ser alertado do que está acontecendo com sua requisição não completada e ficar completamente perdido.   
+Requisições $.ajax() para arquivos JSON transformam responseText em um objeto que é passado como primeiro argumento para uma função callback de sucesso na requisição. Você pode então manipular a resposta diretamente como um objeto JavaScript.
+Ao carregar arquivos XML locais, tais como a partir de um CD-ROM lembre-se que o navegador Internet Explorer trata XML como dados do tipo txt e não txt/xml.</td>
+</tr>
+</table>
+</div>
+
+
+
+<div id="conteudo3">
+<h2>$.get(url, [data], [callback], [tipo])</h2>
+<p>Esta função destina-se especificamente a uma requisição HTTP com uso do método GET. Trata-se de uma maneira simplificada de requisição type: GET sem a complexidade das requisições com uso da função $.ajax().   
+Admite apenas uma função callback a ser executada ao término da requisição e somente se esta for bem sucedida. Se você pretende definir funções para detecção de erros ou funções para serem executadas antes da requisição ter sido completada deverá usar $.ajax(), pois $.get() não admite callback para erros ou success.</p>
+
+<p>É consagrada pelo uso a convenção de se envolver por sinal de chaves os parâmetros facultativos de uma função. Na notação desta função os parâmetros [data], [callback] e [tipo] são facultativos e o parâmetro url é obrigatório.</p>
+
+<table border="1" cellspacing="0">
+
+<tr>
+<th>Parâmetro</th><th>Descrição</th>
+</tr>
+
+<tr>
+<td>url</td><td>O URL do arquivo requisitado.</td>
+</tr>
+
+<tr>
+<td>data</td><td>Dados no formato de um conjunto chave/valor a ser enviado ao servidor.</td>
+</tr>
+
+<tr>
+<td>callback</td><td>Função a ser executada após o carregamento do arquivo requisitado.</td> 
+</tr>
+
+<tr>
+<td>tipo</td><td>Tipo de dado transitando na requisição. Valores possíveis: "xml", "html", "script", "json", "jsonp", ou "text".</td> 
+</tr>
+</table>
+
+<p>Para entender o funcionamento de uma requisição AJAX com uso da função $.get() vamos desenvolver um simples exemplo prático que está disponível no site do livro.</p>
+
+<p>A proposta para construção do nosso exemplo demonstrativo é a de solicitar ao usuário um nome e o nome de uma cidade para serem enviados ao servidor e processados por um programa PHP que retornará uma reposta ao usuário.
+Usarei a linguagem PHP nos exemplos deste livro, por ser aquela com a qual me sinto mais confortável. Use a linguagem de sua preferência.</p>
+
+<p>Por se tratar de uma demonstração do funcionamento de uma requisição não estamos preocupados com a utilidade e a funcionalidade da requisição que iremos desenvolver. Nossa requisição vai enviar dados ao servidor e o programa PHP vai recebê-los e retorná-los ao usuário. Isto não tem valor prático algum, porém vai mostrar como enviar, como processar, como retornar e como apresentar os dados retornados. Conhecendo como funcionam estas quatro ações ficaremos em condições de desenvolver requisições mais elaboradas e práticas, como veremos nos próximos capítulos.</p>
+
+<p>Em uma primeira etapa do desenvolvimento do exemplo iremos enviar os dados; nome: "Maujor", cidade: "Rio de Janeiro" diretamente no script da requisição sem a interferência do usuário. A seguir faremos nossa requisição mais flexível acrescentando dois campos de texto na página, que faz a requisição, para que o usuário entre com os dados.     
+O arquivo PHP requisitado, que contém o programa que irá tratar os dados enviados, foi denominado exemplo-get.php e é mostrado a seguir.</p>
+
+<pre>
+PHP:
+1.	<?php 
+2.	if( isset($_GET["nome"]) && isset($_GET["cidade"]) 
+	&& $_GET["nome"] !== "" && $_GET["cidade"] !== "") {
+3.		$nome = strip_tags($_GET["nome"]);
+4.		$cidade = strip_tags($_GET["cidade"]);
+  
+5.		$html = "&lt;h2>Este é o conteúdo requisitado para demonstrar 
+			a função \$.get( )&lt;/h2>\n";
+6.		$html.= "&lt;p>Os dados enviados foram:&lt;/p>\n";
+7.		$html.= "&lt;ul>\n";
+8.		$html.= "&lt;li>Nome: &lt;span class=\"destaque\">$nome&lt;/span>&lt;/li>\n";
+9.		$html.= "&lt;li>Cidade: &lt;span class=\"destaque\">$cidade&lt;/span>$&lt;/li>\n";
+10.		$html.= "&lt;/ul>";
+11.		echo $html; 
+12.		} else {
+13.		echo "&lt;script type='text/javascript'>alert('Por favor preencha os dois campos')&lt;/script>"; 
+14.		}
+15.	?>
+</pre>
+
+<h3>Código comentado:</h3>
+<p>Se você conhece PHP fique à vontade para pular os comentários sobre estes códigos que farei ao longo de todo o livro. A finalidade destes comentários não é ensinar PHP, mas esclarecer a lógica do programa para que os leitores que usam outras linguagens de programação possam desenvolver códigos equivalentes.</p>
+
+<table border="1" cellspacing="0">
+<tr>
+<th>Linha(s)</th><th>Descrição</th>
+</tr>
+
+<tr>
+<td>linha 2</td><td>Qualquer que seja a natureza dos dados entrados pelo usuário é indispensável que se faça a validação. O grau de sofisticação da validação dos dados entrados é função de cada caso. Nesta linha verificamos, simplesmente, se o usuário forneceu um nome e uma cidade e se o valor fornecido é ou não vazio.</td>
+</tr>
+
+<tr>
+<td>linhas 3 e 4</td><td>Outra técnica indispensável em entrada de dados pelo usuário aqui, por questões de segurança, extirpamos qualquer tentativa de entrada de tags HTML.</td>
+</tr>
+
+<tr>
+<td>linha 5 a 10</td><td>Criamos a variável $html para armazenar a marcação HTML com o conteúdo da requisição.</td>
+</tr>
+
+<tr>
+<td>linha 5</td><td>Um cabeçalho h2 com respectivo texto.
+</td></tr>
+
+<tr>
+<td>linha 6</td><td>Um parágrafo explicativo.</td>
+</tr>
+
+<tr>
+<td>linha 7</td><td>Inicia uma lista não ordenada.</td>
+</tr>
+
+<tr>
+<td>linha 8</td><td>Coloca no primeiro item da lista o nome fornecido pelo usuário.</td>
+</tr>
+
+<tr>
+<td>linha 9</td><td>Coloca no segundo item da lista a cidade fornecida pelo usuário.</td> 
+</tr>
+
+<tr>
+<td>linha 10</td><td>Termina a lista não ordenada.</td>
+</tr>
+
+<tr>
+<td>linha 11</td><td>Escreve a marcação HTML criada anteriomente. Atenção: esta marcação HTML é retornada como resultado caso a requisição tenha sido bem sucedida.</td>
+</tr>
+
+<tr>
+<td>linha 12</td><td>Se a condição de verificação dos dados não for satisfeita o programa pula para a linha seguinte.</td> 
+</tr>
+
+<tr>
+<td>linha 13</td><td>Escreve a marcação HTML contendo uma mensagem ao usuário informando que houve erro no preenchimento dos dados.</td> 
+</tr>
+</table>
+
+<p>Notar que usamos uma caixa de alerta JavaScript para passar a mensagem de erro. Atenção: esta marcação HTML é retornada como resultado caso a requisição tenha falhado.</p>
+
+<p>Na figura 2.1 mostramos a renderização da marcação HTML gerada pelo programa PHP contido no arquivo exemplo-get.php. Na tela superior a simulação do resultado da requisição bem sucedida (notar, em destaque na barra de endereços do navegador que passamos os dois parâmetros da requisição nome e cidade) e na tela inferior o resultado da requisição falha (notar, em destaque na barra de endereços do navegador, que não passamos parâmetros).</p>   
+
+</div>
+
+<div id="conteudo4">
+<h2>$.post(url, [data], [callback], [tipo])</h2>
+<p>Esta função destina-se especificamente a uma requisição HTTP com uso do método POST. Trata-se de uma maneira simplificada de requisição type: POST sem a complexidade das requisições com uso da função $.ajax().</p>
+   
+<p>Admite apenas uma função callback a ser executada ao término da requisição e somente se esta for bem sucedida. Se você pretende definir funções para detecção de erros ou funções para serem executadas antes da requisição ter sido completada deverá usar $.ajax(), pois $.post() não admite callback para erros ou success.</p> 
+
+<table border="1" cellspacing="0">
+
+<tr>
+<th>Parâmetro</th><th>Descrição</th>
+</tr>
+
+<tr>
+<td>url</td><td>O URL do arquivo requisitado.</td>
+</tr>
+
+<tr>
+<td>data</td><td>Dados no formato de um conjunto chave/valor a ser enviado ao servidor.</td>
+</tr>
+
+<tr>
+<td>callback</td><td>Função a ser executada após o carregamento do arquivo requisitado.</td>
+</tr>
+
+<tr>
+<td>tipo</td><td>Tipo de dado transitando na requisição. Valores possíveis: "xml", "html", "script", "json", "jsonp", ou "text".</td> 
+</tr>
+</table>
+
+<pre>
+Exemplo:
+1.	$.post(exemplo-post.php, {
+2.	nome: "Maujor", email: "maujor@maujor.com", comentário: "Texto..."},
+3.	function(data) {
+4.	// manipular os dados retornados
+5.	},
+6.	"html")
+</pre>
+
+<h3>Códigocomentado:</h3>
+<table border="1" cellspacing="0">
+<tr>
+<th>Linha(s)</th><th>Descrição</th>
+</tr>
+
+<tr>
+<td>linha 1</td><td>Requisita o arquivo denominado exemplo-post.php.</td>
+</tr>
+<tr>
+<td>linha 2</td><td>Envia os dados nome, email e comentario  com os valores "Maujor", "maujor@maujor.com" e "Texto do comentário", para o servidor.</td>
+</tr>
+<tr>
+<td>linha 3</td><td>Cria uma função callback para apresentar os dados da requisição.</td>
+</tr>
+<tr>
+<td>linha 6</td><td>Tipo de dado transitando na requisição.</td>
+</tr>
+</table>
+
+<p>Para entender o funcionamento de uma requisição AJAX com uso da função $.post() vamos desenvolver um simples exemplo prático que está disponível no site do livro no arquivo [arquivo-2.1c.php].</p>
+
+<p>O exemplo que escolhemos para demonstrar este tipo de requisição é uma funcionalidade presente na maioria dos sites. Trata-se de um formulário para envio de uma mensagem ao administrador do site. No formulário proposto o usuário preenche os campos para enviar seu nome, e-mail e mensagem, sendo todos eles de preenchimento obrigatório. Reduzimos ao mínimo a quantidade de campos no formulário, para não alongar desnecessariamente a quantidade de código a ser mostrado.</p>
+ 
+<p>Os conceitos estudados para os três campos são suficientes para o perfeito entendimento do funcionamento dos scripts e você poderá facilmente estender as técnicas estudas para um formulário com maior quantidade de campos e mais complexo. 
+No desenvolvimento deste exemplo vamos considerar a metodologia HIJAX partindo de um formulário funcional cujos dados serão processados por um programa PHP. Uma vez que não é do escopo deste livro estudar o desenvolvimento de um programa PHP (ou outra linguagem qualquer) para enviar dados de um formulário iremos preparar a estrutura HTML do formulário e a programação para receber os códigos de envio dos dados, mas não detalharemos tais códigos. Ou seja, omitiremos no script PHP o redirecionamento para mensagens de erro, o direcionamento para uma página de sucesso, as função de envio do email ao administrador e todos os scripts que não dizem respeito direto ao AJAX, em fim, aqueles que fazem a página funcionar sem AJAX.</p>
+       
+<p>Na figura 2.5 mostramos o resultado do envio bem sucedido dos dados e a respectiva mensagem retornada para o usuário, via AJAX.</p>
+</div>

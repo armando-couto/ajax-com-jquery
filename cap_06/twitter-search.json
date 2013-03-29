@@ -1,0 +1,51 @@
+{"results":[
+
+{
+"text":"@caferrari Jquery do maujor na m\u00e3o",
+"to_user_id":1712276,
+"to_user":"caferrari",
+"from_user":"tecnoct",
+"id":1642818978,
+"from_user_id":4171170,
+"iso_language_code":"es",
+"source":"&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/136345877\/tecnoct_normal.jpg",
+"created_at":"Tue, 28 Apr 2009 21:20:29 +0000"
+},
+
+{
+"text":"@tiagosx maujor.com",
+"to_user_id":1506062,
+"to_user":"tiagosx",
+"from_user":"krusty_hxcx",
+"id":1642488461,
+"from_user_id":1290859,
+"iso_language_code":"pt",
+"source":"&lt;a  href=&quot;http:\/\/twitterfox.net\/&quot;&gt;TwitterFox&lt;\/a&gt;",
+"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/137551850\/me_normal.jpg",
+"created_at":"Tue, 28 Apr 2009 20:42:48 +0000"
+},
+
+{
+"text":"@maujor Olha s\u00f3, eu queria saber se o sr. vai estar presente no evento do EDTED-PE em novembro?",
+"to_user_id":2737990,
+"to_user":"maujor",
+"from_user":"war10ck_ti",
+"id":1642104930,
+"from_user_id":5432727,
+"iso_language_code":"pt",
+"source":"&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/150992182\/SSSS_normal.JPG",
+"created_at":"Tue, 28 Apr 2009 19:59:11 +0000"
+}
+
+],
+"since_id":0,
+"max_id":1648961688,
+"refresh_url":"?since_id=1648961688&q=maujor",
+"results_per_page":15,
+"next_page":"?page=2&max_id=1648961688&q=maujor",
+"completed_in":0.12249,
+"page":1,
+"query":"maujor"
+}
